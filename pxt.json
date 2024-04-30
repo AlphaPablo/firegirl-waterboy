@@ -2,7 +2,9 @@
     "name": "Firegirl Waterboy",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "arcade-split-screen": "github:riknoll/arcade-split-screen#v0.0.3",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2"
     },
     "files": [
         "main.blocks",
@@ -10,13 +12,15 @@
         "README.md",
         "assets.json",
         "tilemap.g.jres",
-        "tilemap.g.ts"
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.46",
+        "target": "1.12.51",
         "targetId": "arcade"
     },
     "supportedTargets": [
